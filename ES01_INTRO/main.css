@@ -1,0 +1,22 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: gold;
+    cursor:cell;
+}
+a:visited{
+    color: gray;
+}
+.linkesterni{
+    color:rgb(0, 0, 0);
+    transition: all 500ms;
+}
+.linkesterni:visited{
+    color: rgb(0, 0, 0);
+}
+.linkesterni:hover{
+    padding: 10px;
+}
